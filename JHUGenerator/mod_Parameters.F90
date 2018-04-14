@@ -182,7 +182,7 @@ real(dp), public           :: esq ! = 4.0d0 * pi * alpha_QED  ! Fundamental char
 real(8), public            :: xw = 0.23119d0                ! sin**2(Theta_Weinberg) (PDG-2008)
 real(8), public            :: sitW ! = dsqrt(xw)            ! sin(Theta_Weinberg) (PDG-2008)
 real(8), public            :: twosc ! = sqrt(4.0_dp*xw*(1.0_dp-xw))
-real(8), public, parameter :: LHC_Energy=8000d0  *GeV      ! LHC hadronic center of mass energy
+real(8), public, parameter :: LHC_Energy=14000d0  *GeV      ! LHC hadronic center of mass energy
 real(8), public, parameter :: TEV_Energy=1960d0  *GeV       ! Tevatron hadronic center of mass energy
 real(8), public, parameter :: ILC_Energy=250d0  *GeV        ! Linear collider center of mass energy
 !command line: epPolarization, emPolarization

@@ -159,6 +159,58 @@ ggVH5AmpDep = \
          gg_VH5_Boxes/mod_ffbH5_Box11_12_pmm.F90 \
          gg_VH5_Boxes/mod_ffbH5_Box11_12_pmp.F90
 
+ggHHAmpDep = \
+		 gg_HH_Boxes/mod_gg_box_HH_1_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_1_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_1_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_1_pp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_2_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_2_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_2_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_2_pp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_3_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_3_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_3_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_3_pp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_4_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_4_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_4_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_4_pp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_5_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_5_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_5_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_5_pp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_6_mm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_6_mp.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_6_pm.F90 \
+         gg_HH_Boxes/mod_gg_box_HH_6_pp.F90
+
+ggHH5AmpDep = \
+         gg_HH5_Boxes/mod_gg_box_HH5_1_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_1_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_1_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_1_pp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_2_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_2_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_2_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_2_pp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_3_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_3_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_3_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_3_pp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_4_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_4_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_4_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_4_pp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_5_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_5_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_5_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_5_pp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_6_mm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_6_mp.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_6_pm.F90 \
+         gg_HH5_Boxes/mod_gg_box_HH5_6_pp.F90
+
 # amplitude dependencies
 AmpDep = mod_TopDecay.F90 \
          mod_Graviton.F90 \
@@ -237,6 +289,58 @@ ggVH5AmpObj = \
           $(ObjectDir)/mod_ffbH5_Box11_12_pmm.o \
           $(ObjectDir)/mod_ffbH5_Box11_12_pmp.o
 
+ggHHAmpObj = \
+          $(ObjectDir)/mod_gg_box_HH_1_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_1_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_1_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_1_pp.o \
+          $(ObjectDir)/mod_gg_box_HH_2_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_2_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_2_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_2_pp.o \
+          $(ObjectDir)/mod_gg_box_HH_3_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_3_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_3_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_3_pp.o \
+          $(ObjectDir)/mod_gg_box_HH_4_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_4_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_4_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_4_pp.o \
+          $(ObjectDir)/mod_gg_box_HH_5_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_5_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_5_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_5_pp.o \
+          $(ObjectDir)/mod_gg_box_HH_6_mm.o \
+          $(ObjectDir)/mod_gg_box_HH_6_mp.o \
+          $(ObjectDir)/mod_gg_box_HH_6_pm.o \
+          $(ObjectDir)/mod_gg_box_HH_6_pp.o
+
+ggHH5AmpObj = \
+          $(ObjectDir)/mod_gg_box_HH5_1_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_1_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_1_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_1_pp.o \
+          $(ObjectDir)/mod_gg_box_HH5_2_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_2_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_2_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_2_pp.o \
+          $(ObjectDir)/mod_gg_box_HH5_3_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_3_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_3_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_3_pp.o \
+          $(ObjectDir)/mod_gg_box_HH5_4_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_4_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_4_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_4_pp.o \
+          $(ObjectDir)/mod_gg_box_HH5_5_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_5_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_5_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_5_pp.o \
+          $(ObjectDir)/mod_gg_box_HH5_6_mm.o \
+          $(ObjectDir)/mod_gg_box_HH5_6_mp.o \
+          $(ObjectDir)/mod_gg_box_HH5_6_pm.o \
+          $(ObjectDir)/mod_gg_box_HH5_6_pp.o
+
 # amplitude objects
 AmpObj =  $(ObjectDir)/mod_TopDecay.o \
           $(ObjectDir)/mod_Graviton.o \
@@ -313,7 +417,7 @@ MadGraphObj = $(ObjectDir)/gg_ttbh.o \
 
 
 #JHUGenerator: ffdir qldir colliermodules $(CPSObj) $(PSGenObj) $(VegasObj) $(PDFObj) $(AmpObj) $(ggVHAmpObj) $(MainObj)
-JHUGenerator: colliermodules $(CPSObj) $(PSGenObj) $(VegasObj) $(PDFObj) $(AuxObj) $(ggVHAmpObj) $(ggVH5AmpObj) $(AmpObj) $(MainObj)
+JHUGenerator: colliermodules $(CPSObj) $(PSGenObj) $(VegasObj) $(PDFObj) $(AuxObj) $(ggVHAmpObj) $(ggVH5AmpObj) $(ggHHAmpObj) $(ggHH5AmpObj) $(AmpObj) $(MainObj)
 	@echo " linking"
 ifeq ($(UseLHAPDF),Yes)
 	echo " interfaced with LHAPDF"
@@ -322,7 +426,7 @@ else
 endif
 	@echo " executable file is "$(Exec) "compiled with "$(Comp)
 	@echo " "
-	$(fcomp) -o $(Exec) $(MainObj) $(PSGenObj) $(AuxObj) $(ggVHAmpObj) $(ggVH5AmpObj) $(AmpObj) $(VegasObj) $(PDFObj) $(CPSObj) $(MCFM_Obj) $(LHAPDFflags) $(QCDLoopflags)
+	$(fcomp) -o $(Exec) $(MainObj) $(PSGenObj) $(AuxObj) $(ggVHAmpObj) $(ggVH5AmpObj) $(ggHHAmpObj) $(ggHH5AmpObj) $(AmpObj) $(VegasObj) $(PDFObj) $(CPSObj) $(MCFM_Obj) $(LHAPDFflags) $(QCDLoopflags)
 
 $(AuxObj): $(AuxDep) $(Makefile)
 	@echo " compiling misc. and aux. tools"
@@ -337,6 +441,16 @@ $(ggVHAmpObj): $(ggVHAmpDep) $(Makefile)
 $(ggVH5AmpObj): $(ggVH5AmpDep) $(Makefile)
 	@echo " compiling ggVH5 box amplitudes"
 	$(fcomp) -c $(ggVH5AmpDep)
+	mv *.o $(ObjectDir)
+
+$(ggHHAmpObj): $(ggHHAmpDep) $(Makefile)
+	@echo " compiling ggHH box amplitudes"
+	$(fcomp) -c $(ggHHAmpDep)
+	mv *.o $(ObjectDir)
+
+$(ggHH5AmpObj): $(ggHH5AmpDep) $(Makefile)
+	@echo " compiling ggHH5 box amplitudes"
+	$(fcomp) -c $(ggHH5AmpDep)
 	mv *.o $(ObjectDir)
 
 $(AmpObj): $(AmpDep) mod_Misc.F90 mod_Parameters.F90 $(Makefile)
