@@ -1,0 +1,64 @@
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+STOP 1
+ ERROR: Unknown command line argument: H_DK=0
+ ERROR: Unknown command line argument: H_DK=0
+STOP 1
+STOP 1
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[50003,1],19]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m0.825s
+user	0m0.108s
+sys	0m2.233s
+Finished with job 26784340

@@ -1,0 +1,96 @@
+                                                            
+         *******************************************        
+         *              C O L L I E R              *        
+         *                                         *        
+         *        Complex One-Loop Library         *        
+         *      In Extended Regularizations        *        
+         *                                         *        
+         *    by A.Denner, S.Dittmaier, L.Hofer    *        
+         *                                         *        
+         *              version  1.2               *        
+         *                                         *        
+         *******************************************        
+                                                            
+                                                           
+ ***********************************************************
+                                                            
+   COLLIER: information on settings and internal parameters 
+     is written to the file data/tr_collierfiles/InfOut.cll
+                                                            
+ ***********************************************************
+                                                            
+ 
+  
+  ***************************************************************************************
+  *                                JHU Generator v7.1.5                                 *
+  ***************************************************************************************
+  *                                                                                     *
+  *   Spin and parity determination of single-produced resonances at hadron colliders   *
+  *                                                                                     *
+  *              I. Anderson, S. Bolognesi, F. Caola, Y. Gao, A. Gritsan,               *
+  *          Z. Guo, C. Martin, K. Melnikov, R. Rontsch, H. Roskes, U. Sarica,          *
+  *                 M. Schulze, N. Tran, A. Whitbeck, M. Xiao, Y. Zhou                  *
+  *              Phys.Rev. D81 (2010) 075022;  arXiv:1001.3396  [hep-ph],               *
+  *              Phys.Rev. D86 (2012) 095031;  arXiv:1208.4018  [hep-ph],               *
+  *              Phys.Rev. D89 (2014) 035007;  arXiv:1309.4819  [hep-ph],               *
+  *              Phys.Rev. D94 (2016) 055023;  arXiv:1606.03107 [hep-ph].               *
+  *                                                                                     *
+  ***************************************************************************************
+  
+   
+   Command line: ./JHUGen PDFSet=2 Collider=1 Process=51 VH_PC=tr Unweighted=1 VegasNc0=100000 VegasNc2=1000000 DataFile=data/tr FacScheme=2 RenScheme=2 MuFacMultiplier=1d0 MuRenMultiplier=1d0 Interf=0 Seed=1
+   
+   Input Parameter:
+    Collider: P-P, sqrt(s)=13000.00
+    Resonance: spin=0, mass= 125.00 width=   0.00407
+    Random seed:           1
+    To reproduce results using this seed, JHUGen should be compiled with the same compiler:
+      GNU Fortran (GCC) 5.3.0
+    
+    WidthScheme:   2
+    PDFSet:   2
+    Unweighted: T
+    
+      Lambda=  1000.0
+    
+    LHE output: data/tr.lhe
+    Histogram output: data/tr.dat
+    Log file: data/tr.log
+    
+  Running
+  finding maximal weight with       100000  evaluations
+ Reading PDF grid from pdfs/mstw2008lo.00.dat
+  generating      1000000  events
+  10% 
+  20% 
+  30% 
+  40% 
+  50% 
+  60% 
+  70% 
+  80% 
+  90% 
+ 100% 
+ 
+  Evaluation Counter:              37517987
+  Acceptance Counter:               1000000
+  Rejection  Counter:              36517987
+  Acceptance  Counter_part:           -5                    0
+  Acceptance  Counter_part:           -4                    0
+  Acceptance  Counter_part:           -3                    0
+  Acceptance  Counter_part:           -2                    0
+  Acceptance  Counter_part:           -1                    0
+  Acceptance  Counter_part:            0                    0
+  Acceptance  Counter_part:            1                    0
+  Acceptance  Counter_part:            2                    0
+  Acceptance  Counter_part:            3                    0
+  Acceptance  Counter_part:            4                    0
+  Acceptance  Counter_part:            5                    0
+  Alert  Counter:                     0
+  event generation rate (events/sec)   780.39875627881429     
+ Done
+
+real	21m27.836s
+user	21m16.064s
+sys	0m8.965s
+Finished with job 26781706
