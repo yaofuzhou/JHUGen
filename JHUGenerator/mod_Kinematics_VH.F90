@@ -7,11 +7,6 @@ contains
 
 
 
-
-
-
-
-
 SUBROUTINE WriteOutEvent_VH(id,helicity,MomExt,EventWeight)
 use ModKinematics
 use ModParameters
