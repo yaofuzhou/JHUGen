@@ -253,7 +253,7 @@
 +      - run: ./JHUGen Collider=0 Process=50 VegasNc0=100000 VegasNc2=10000 DataFile=$LHEDIR/ee_ZH DecayMode1=9
 +      - run: ./JHUGen VegasNc0=100000 TauDK=0 ReadLHE=$LHEDIR/ee_ZH.lhe DataFile=$LHEDIR/ee_ZH_tautau
 +      - run: ./JHUGen Collider=0 Process=50 VegasNc0=100000 VegasNc2=10000 DataFile=$LHEDIR/ee_gammaH_bb DecayMode1=7 HbbDK ghz1=0,0 ghgsgs2=1,0 epPolarization=100 emPolarization=-100
-+      - run: ./JHUGen Collider=1 Process=51 VH_PC=gg Unweighted=1 VegasNc0=100000 VegasNc2=100 DataFile=$LHEDIR/gg_ZH_llbb FacScheme=2 RenScheme=2 MuFacMultiplier=1d0 MuRenMultiplier=1d0 DecayMode1=0
++      - run: ./JHUGen Collider=1 Process=51 VH_PC=gg HbbDK=1 ghz1=0.0,0.0 ghgsgs2=1.0,0.0 Unweighted=1 VegasNc0=100000 VegasNc2=100 DataFile=$LHEDIR/gg_ZH_llbb FacScheme=2 RenScheme=2 MuFacMultiplier=1d0 MuRenMultiplier=1d0 DecayMode1=0
 +      #H+J
 +      - run: ./JHUGen PDFSet=3 Process=62 VegasNc0=100000 VegasNc2=10000 DataFile=$LHEDIR/HJ
 +      #ttH, bbH, tH
